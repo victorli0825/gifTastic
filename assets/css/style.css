@@ -1,0 +1,40 @@
+body {
+  background: url("../images/intersection.png");
+}
+
+.container {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nbaTeam {
+    display: inline-block;
+    margin: 10px;
+}
+
+button.team {
+    border-radius: 12px;
+    background-color: #263959;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    /*text-decoration: none;*/
+    font-size: 12px;
+    margin: 10px 5px 0;
+}
+
+#team-form {
+	margin: 10px 0;
+}
+
+#addTeam {
+	border-radius: 12px;
+    background-color: #1f6d63;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 5px 0;
+}
