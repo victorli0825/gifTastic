@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var topics = ["Golden State Warriors", "Houston Rockets", "Oklahoma City Thunder", "Los Angeles Lakers", "Boston Celtics", "Toronto Raptors", "Cleveland Cavaliers", "Washington Wizard"];
+    var topics = ["Golden State Warriors", "Houston Rockets", "Oklahoma City Thunder", "Los Angeles Lakers", "San Antonio Spurs", "Boston Celtics", "Toronto Raptors", "Cleveland Cavaliers", "Washington Wizard", "Miami Heat"];
 
     function displayInfo() {
         var team = $(this).attr("team-name");
@@ -38,7 +38,8 @@ $(document).ready(function() {
                 if (state === "still") {
                     $(this).attr("src", $(this).attr("data-animate"));
                     $(this).attr("data-state", "animate");
-                } else {
+                } 
+                else {
                     $(this).attr("src", $(this).attr("data-still"));
                     $(this).attr("data-state", "still");
                 }
